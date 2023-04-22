@@ -52,3 +52,6 @@ body {
         border-color: rgb(42, 189, 86)
     }
 }
+img{
+    float: right;
+}

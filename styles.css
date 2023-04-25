@@ -55,3 +55,13 @@ body {
 img{
     float: right;
 }
+button{
+    background-color: rgb(42, 189, 86);
+    font-family: monospace;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+

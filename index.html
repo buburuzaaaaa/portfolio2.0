@@ -8,20 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles.css">
-    <title>portfolio</title>
+    <link rel="shortcut icon" href="./pics/images.jpg" type="image/x-icon">
+    <title>Buburuzaa</title>
 </head>
 <body onload="loaded()">
 <div class="container text-center">
-    <div class="row align-items-start">
-        <div class="col">
-            <h1 data-value="HI MY NAME IS BUBURUZAA" class="typewriter"> HI MY NAME IS BUBURUZAA</h1>
-        </div>
-        <div class="col">
-        <img src="./pics/dev3.png" alt="">
-        </div>
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+        <div class="col-md-8"><h1 data-value="HI MY NAME IS BUBURUZAA" class="typewriter"> HI MY NAME IS BUBURUZAA</h1></div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+        <div class="col-6 col-md-4"><button><a href=""></a>view resume</button></div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6"><img src="./pics/dev3.png" alt=""></div>
     </div>
 </div>
-
 
 
 

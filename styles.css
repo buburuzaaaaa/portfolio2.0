@@ -7,7 +7,8 @@ h1{
 body {
     background: rgb(2, 2, 2);
     padding-top: 5em;
-    display: flex;
+    
+   
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -16,7 +17,7 @@ body {
     font-family: monospace;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
+    border-right: .15em solid rgb(0, 0, 0);
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -41,17 +42,7 @@ body {
 } */
 
 /* The typewriter cursor effect */
-@keyframes blink-caret {
 
-    from,
-    to {
-        border-color: transparent
-    }
-
-    50% {
-        border-color: rgb(42, 189, 86)
-    }
-}
 img{
     float: right;
 }
@@ -59,9 +50,18 @@ button{
     background-color: rgb(42, 189, 86);
     font-family: monospace;
     font-weight: bolder;
+    margin-left: 2.5rem;
+    border-radius: .5rem;
 }
 a{
     text-decoration: none;
     color: black;
 }
-
+.typewrite{
+    color: rgb(42, 189, 86);
+    font-size: 2rem;
+    
+}
+.h1{
+    margin-left: 2.5rem;
+}

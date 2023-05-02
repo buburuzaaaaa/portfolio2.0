@@ -1,14 +1,15 @@
-h1{
+h1 {
     color: rgb(42, 189, 86);
     font-size: 2rem;
     font-family: "Space Mono", monospace;
 }
+
 /* GLOBAL STYLES */
 body {
     background: rgb(2, 2, 2);
     padding-top: 5em;
-    
-   
+
+
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -21,7 +22,7 @@ body {
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
-    
+
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
     /* Adjust as needed */
@@ -43,25 +44,38 @@ body {
 
 /* The typewriter cursor effect */
 
-img{
+img {
+    border-radius: 100%;
     float: right;
+    margin-top: 0%;
 }
-button{
+
+button {
     background-color: rgb(42, 189, 86);
     font-family: monospace;
     font-weight: bolder;
     margin-left: 2.5rem;
     border-radius: .5rem;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.typewrite{
+
+.typewriter {
     color: rgb(42, 189, 86);
     font-size: 2rem;
-    
+    margin-left: 0%;
+
 }
-.h1{
+
+.h1 {
     margin-left: 2.5rem;
+}
+
+.col-sm-6.col-md-8 {
+    height: 50px;
+    width: fit-content;
+    margin-left: 4rem;
 }

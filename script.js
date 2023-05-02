@@ -27,6 +27,36 @@ function loaded() {
   }, 50);
 }
 
+// hover over the h1 tag, it performs a little glitch effect//
+function loading() {  
+  let iteration = 0;
+  
+  clearInterval(interval);
+  
+  interval = setInterval(() => {
+    type.innerText = type.innerText
+      .split("")
+      .map((letter, index) => {
+        if(index < iteration) {
+          return type.dataset.value[index];
+        }
+      
+        return letters[Math.floor(Math.random() * 26)]
+      })
+      .join("");
+    
+    if(iteration >= type.dataset.value.length){ 
+      clearInterval(interval);
+    }
+    
+    iteration += 1 / 3;
+  }, 20);
+}
+
+
+
+
+
 //function for self deleting phrase.
 /*class slfType {
   constructor(el, toRotate, period) {

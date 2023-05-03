@@ -1,3 +1,16 @@
+$(window).on('load',function(){
+  $('#txt').css('opacity',0).delay(500).animate({opacity:'100%'})
+  
+})
+
+
+
+
+
+
+
+
+
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;

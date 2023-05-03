@@ -16,7 +16,7 @@ p{
 h1 {
   color: rgb(42, 189, 86);
   font-size: 2rem;
-  font-family: "Space Mono", monospace;
+  font-family: ash;
 }
 
 /* GLOBAL STYLES */
@@ -28,7 +28,7 @@ body {
 /* DEMO-SPECIFIC STYLES */
 .typewriter {
   margin-left: 3rem;
-  font-family: monospace;
+  font-family: ash;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid rgb(0, 0, 0);
@@ -81,7 +81,7 @@ a {
 
 .typewriter {
   color: rgb(42, 189, 86);
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 0%;
   margin-top: 0rem;
 }

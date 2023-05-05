@@ -4,6 +4,19 @@
 }
 
 
+.header{
+  background-color:rgb(42, 189, 86) ;
+  height: 6.5rem;
+}
+.logo{
+  margin-left: 2rem;
+  margin-top: .5rem;
+}
+
+
+
+
+
 #txt{
   font-family: ash;
   color:rgb(42, 189, 86) ;
@@ -28,7 +41,7 @@ h1 {
 /* GLOBAL STYLES */
 body {
   background: rgb(2, 2, 2);
-  padding-top: 5em;
+font-family: ash;
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -58,11 +71,12 @@ body {
     }
 } */
 /* The typewriter cursor effect */
-img {
+
+/*img {
   border-radius: 100%;
   float: right;
   margin-top: 0%;
-}
+}*/
 
 .btn{
   background-color: rgb(42, 189, 86);
@@ -70,7 +84,7 @@ img {
   font-weight: bolder;
   margin-left: 5rem;
   border-radius: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .btn:hover{
   background-color: rgb(42, 189, 86);
@@ -89,7 +103,7 @@ a {
   color: rgb(42, 189, 86);
   font-size: 3rem;
   margin-left: 0%;
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 .h1 {
@@ -101,3 +115,4 @@ a {
   width: fit-content;
   margin-left: 4rem;
 }/*# sourceMappingURL=main.css.map */
+

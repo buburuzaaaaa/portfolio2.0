@@ -24,6 +24,7 @@ li{
   color: black;
   display: inline;
   font-size: 3rem;
+  padding: 1rem;
   
 }
 
@@ -133,3 +134,19 @@ a {
   margin-left: 4rem;
 }/*# sourceMappingURL=main.css.map */
 
+.toggle{
+  display: none;
+}
+
+.prg{
+  background-color:rgb(42, 189, 86) ;
+  color: black;
+  font-family: ash;
+  width: 30rem;
+  height: 10rem;
+  font-size: 7rem;
+  border-radius: 3rem;
+position:absolute;
+left: 33%;
+margin-top: 3rem;
+}

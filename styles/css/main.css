@@ -151,5 +151,8 @@ left: 33%;
 margin-top: 3rem;
 }
 .tooling{
+  width: 30%;
   margin-top: 20%;
+  position: absolute;
+  left: 34%;
 }

@@ -11,7 +11,16 @@
 .logo{
   margin-left: 2rem;
   margin-top: .5rem;
+  background-color: black;
+  font-family: ash;
 }
+
+
+
+.bg{
+  background-color: black;
+} 
+
  ul{
   list-style-type: none;
   float: right;
@@ -53,14 +62,10 @@ a{
 /*end paragraph text*/
 
 
-h1 {
-  color: rgb(42, 189, 86);
-  font-size: 2rem;
-  font-family: ash;
-}
+
 
 /* GLOBAL STYLES */
-body {
+.color{
   background: rgb(2, 2, 2);
 font-family: ash;
 }
@@ -146,15 +151,13 @@ font-family: ash;
   height: 10rem;
   font-size: 7rem;
   border-radius: 3rem;
-position:absolute;
-left: 33%;
+margin-left: 64rem;
 margin-top: 3rem;
 }
 .tooling{
   width: 30%;
   margin-top: 20%;
-  position: absolute;
-  left: 34%;
+  margin-left: 55rem;
 }
 /* end of css for big button with tooling text*/
 
@@ -165,14 +168,14 @@ margin-top: 3rem;
   font-size: 2rem;
 }
 .h1a{
- margin-left: 41%;
+ margin-left: 44%;
   font-size: 5rem;
   color: #0CBAF0;
 }
 .border{
   border: .5rem solid #0CBAF0;
   position: absolute;
-  top: 17%;
+  top: 10%;
   width: 30%;
   height: 12%;
   left: 35%;
@@ -186,4 +189,46 @@ margin-top: 3rem;
 .head{
   background-color: #0CBAF0;
     height: 6.5rem;
+}
+
+/*resume page*/
+
+
+.bck{
+  background-color: #0CBAF0;
+  font-family: ash;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+
+
+.big{
+  font-size: 3rem;
+  color:rgb(42, 189, 86) ;
+}
+
+.font{
+  font-size: 2rem;
+  color: #0CBAF0;
+  width: max-content;
+  
+  
+}
+
+.flt{
+ float: right;
+ font-size: 2rem;
+ color: #0CBAF0;
+}
+.mrgn{
+margin-left: 2rem;
+}
+
+.fn{
+  font-family: ash;
+  background-color: black;
+}
+
+.real{
+  background-color: black;
 }

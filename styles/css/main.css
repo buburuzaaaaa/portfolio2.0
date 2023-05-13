@@ -3,7 +3,7 @@
   src: url(../../fonts/FontsFree-Net-Cyborg.ttf);
 }
 
-
+/*header*/
 .header{
   background-color:rgb(42, 189, 86) ;
   height: 6.5rem;
@@ -33,8 +33,9 @@ a{
   color: black;
   font-family: ash;
 }
+/*end header*/
 
-
+/*paragraph text*/
 #txt{
   font-family: ash;
   color:rgb(42, 189, 86) ;
@@ -49,6 +50,8 @@ a{
   font-size: 2rem;
   margin-top: 5rem;
 }
+/*end paragraph text*/
+
 
 h1 {
   color: rgb(42, 189, 86);
@@ -96,6 +99,7 @@ font-family: ash;
   margin-top: 0%;
 }*/
 
+/*resume button*/
 .btn{
   background-color: rgb(42, 189, 86);
   font-family: monospace;
@@ -111,19 +115,14 @@ font-family: ash;
 
 }
 
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
+/* css for hacker animation*/
 .typewriter {
   color: rgb(42, 189, 86);
   font-size: 3rem;
   margin-left: 0%;
   margin-top: 2rem;
 }
-
+/* end of css for hacker animation*/
 .h1 {
   margin-left: 2.5rem;
 }
@@ -134,10 +133,11 @@ a {
   margin-left: 4rem;
 }/*# sourceMappingURL=main.css.map */
 
+/*toggle class for jquery*/
 .toggle{
   display: none;
 }
-
+/* css for big button with tooling text*/
 .prg{
   background-color:rgb(42, 189, 86) ;
   color: black;
@@ -155,4 +155,35 @@ margin-top: 3rem;
   margin-top: 20%;
   position: absolute;
   left: 34%;
+}
+/* end of css for big button with tooling text*/
+
+/*about page*/
+.me{
+  color: #0CBAF0;
+  font-family: ash;
+  font-size: 2rem;
+}
+.h1a{
+ margin-left: 41%;
+  font-size: 5rem;
+  color: #0CBAF0;
+}
+.border{
+  border: .5rem solid #0CBAF0;
+  position: absolute;
+  top: 17%;
+  width: 30%;
+  height: 12%;
+  left: 35%;
+}
+
+
+/*about page css*/
+
+
+/*header*/
+.head{
+  background-color: #0CBAF0;
+    height: 6.5rem;
 }

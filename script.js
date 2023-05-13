@@ -7,6 +7,9 @@ $(window).on('load',function(){
 $(window).on('load',function(){
   $(".toggle").delay(100).slideDown('slow');
 })
+$(window).on('load',function(){
+  $('.border').delay(200).css('opacity',0).delay(500).animate({opacity:'100%'})
+})
 
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

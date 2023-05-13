@@ -156,7 +156,7 @@ margin-top: 3rem;
 }
 .tooling{
   width: 30%;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 55rem;
 }
 /* end of css for big button with tooling text*/
@@ -171,15 +171,9 @@ margin-top: 3rem;
  margin-left: 44%;
   font-size: 5rem;
   color: #0CBAF0;
+  font-family: ash;
 }
-.border{
-  border: .5rem solid #0CBAF0;
-  position: absolute;
-  top: 10%;
-  width: 30%;
-  height: 12%;
-  left: 35%;
-}
+
 
 
 /*about page css*/
@@ -231,4 +225,43 @@ margin-left: 2rem;
 
 .real{
   background-color: black;
+}
+
+/* boosrap cards*/
+
+.card-title{
+  font-family: ash;
+  color: #0CBAF0;
+}
+.card{
+  background-color: black;
+}
+.card-text{
+  color:rgb(42, 189, 86);
+  font-family: ash;
+  font-size: large;
+}
+.text-body-secondary{
+  color: rgb(42, 189, 86);
+    font-family: ash;
+}
+.card-group{
+  border:.5rem solid #0CBAF0;
+}
+.r{
+  border: .2rem solid black;
+ margin-left: 45%;
+}
+.cnt{
+  color:rgb(42, 189, 86) ;
+  font-family: ash;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.g{
+  text-align: center;
+  font-family: ash;
+  font-size: 2rem;
+  color: #0CBAF0;
 }
